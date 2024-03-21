@@ -1,5 +1,7 @@
 
 import './App.css'
+import SimpleForm from './components/SimpleForm/SimpleForm'
+import StatefulForm from './components/StatefulForm/StatefulForm'
 
 function App() {
   
@@ -8,12 +10,8 @@ function App() {
     <>
      
       <h1>Vite + React</h1>
-     
-       <form>
-        <input type="text" name="" id="" />
-        <br /><br />
-        <button>Submit</button>
-       </form>
+      {/* <SimpleForm></SimpleForm>  */}
+      <StatefulForm></StatefulForm>
     </>
   )
 }
